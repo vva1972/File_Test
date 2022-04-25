@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity() {
             val fileName = path?.substring(path.lastIndexOf(":") + 1)
             Log.d("vva: ", "File name: " + fileName)
 
-//            Log.d("vva: ", "selectedFile.toString " + selectedFile.toString())
-//            Log.d("vva: ", "selectedFile?.path " + selectedFile?.path.toString())
+            Log.d("vva: ", "selectedFile.toString " + selectedFile.toString())
+            Log.d("vva: ", "selectedFile?.path " + selectedFile?.path.toString())
 
 //            val file = File("/storage/emulated/0/Download/Cheque.xml")
             //val file = File(fileName.toString())
